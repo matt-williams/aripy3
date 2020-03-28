@@ -28,5 +28,5 @@ setup(
         "Programming Language :: Python",
     ],
     tests_require=["coverage", "httpretty", "nose", "tissue"],
-    install_requires=["git+git://github.com/matt-williams/swaggerpy3.git#egg=swaggerpy3"],
+    install_requires=["http://github.com/matt-williams/swaggerpy3/tarball/master#egg=swaggerpy3"],
 )
