@@ -141,7 +141,6 @@ class BaseObject(object):
                 "'%r' object has no attribute '%r'" % (self, item))
 
         async def enrich_operation(**kwargs):
-            print(kwargs)
             """Enriches an operation by specifying parameters specifying this
             object's id (i.e., channelId=self.id), and promotes HTTP response
             to a first-class object.
